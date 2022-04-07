@@ -169,7 +169,7 @@ const ModalFlagConfig: FC<Props> = ({ flag, fetchFlags, selectedService }) => {
 									placeholder='Banner announcing a temporary coupon that customers can use before the end of the month.'
 									value={state.description}
 									onChange={(e) =>
-										dispatch({ key: 'summary', value: e.target.value })
+										dispatch({ key: 'description', value: e.target.value })
 									}
 								/>
 							</label>
